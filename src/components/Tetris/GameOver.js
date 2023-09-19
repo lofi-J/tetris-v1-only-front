@@ -1,6 +1,6 @@
 import "../../css/GameOver.css"
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import { useSelector } from "react-redux";
 
