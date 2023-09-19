@@ -1,0 +1,53 @@
+#Home {
+    background: radial-gradient(rgb(255, 255, 255), rgb(187, 187, 187));
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Tetris {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 7rem;
+    color: #fff;
+    text-shadow: 0 0 15px #000;
+    -webkit-text-stroke: 2px black;
+    z-index: 1;
+    transition: 1s;
+}
+#Tetris:hover {
+    text-shadow: 0 0 30px #000;
+}
+
+
+.button-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    z-index: 1;
+    align-items: center;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: max-content;
+}
+.btn:hover {
+    box-shadow: 0 5px 5px -5px #000;
+}
+
+.volumn-icon {
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+    font-size: 1.5rem;
+    opacity: .8;
+    cursor:pointer;
+}
